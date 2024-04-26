@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <!-- font awesome cdn -->
+
+    <!-- Owl cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <!-- Owl cdn -->
+
+    <!-- style css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- style css -->
+
+    <!-- Responsive css -->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <!-- Responsive css -->
+
+    <title>home</title>
+  </head>
+
+  <body>
+    <!-- Header-start -->
+
+    <header class="header_wrapper">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="assets/images/logo/logo.svg" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fa-solid fa-bars-staggered navbar-toggler-icon"></i>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav menu-navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">PROJECTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTACT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#calculater">CALCULATER</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#career">CAREER</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#downlaod">DOWNLOAD</a>
+              </li>
+              <li class="nav-item mt-3 mt-lg-0">
+                <a class="nav-link" href="#gallery">GALLERY</a>
+              </li>
+              <li class="nav-item mt-3 mt-lg-0">
+                <a class="nav-link"
+                  ><i class="fa-solid fa-magnifying-glass" id="search_icon"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <form class="search-form" style="display: none">
+          <input type="search" id="search-box" placeholder="search.." />
+          <!-- <label for="search-box" class="fa fa-search"></label> -->
+        </form>
+      </nav>
+    </header>
+
+    <!-- Header-End -->
+
+    <!-- Banner-sec-start -->
+
+    <section class="banner_wrapper">
+      <div class="container-fluid p-0">
+        <div class="row">
+          <div class="hero-slide owl-carousel owl-theme">
+            <div class="item">
+              <div class="slide-box">
+                <img src="assets/images/banner/banner.jpeg" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="item">
+              <div class="slide-box">
+                <img src="assets/images/banner/banner.jpeg" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="item">
+              <div class="slide-box">
+                <img src="assets/images/banner/banner-2.jpeg" alt="" class="img-fluid">
+              </div>
+            </div>
+           
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="row d-none">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel"
+        data-bs-interval="2000">
+        <!-- Add data-bs-interval="3000" to set the interval to 3 seconds (3000 milliseconds) -->
+        <div class="carousel-inner">
+          <div class="carousel-item slide-box active">
+            <picture>
+              <source srcset="assets/images/banner/banner.jpeg" media="(max-width:576px)" />
+              <img src="assets/images/banner/banner.jpeg" class="d-block w-100" alt="banner" />
+            </picture>
+          </div>
+          <div class="carousel-item slide-box">
+            <picture>
+              <source srcset="assets/images/banner/banner.jpeg" media="(max-width:576px)" />
+              <img src="assets/images/banner/banner-2.jpeg" class="d-block w-100" alt="banner" />
+            </picture>
+          </div>
+          <div class="carousel-item slide-box">
+            <picture>
+              <source srcset="assets/images/banner/banner.jpeg" media="(max-width:576px)" />
+              <img src="assets/images/banner/banner.jpeg" class="d-block w-100" alt="banner" />
+            </picture>
+          </div>
+        </div>
+        <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleFade"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Banner-sec-end -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- jquery-cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- jquery-cdn -->
+
+    <!-- Owl-cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- Owl-cdn -->
+
+    <!-- custome-js -->
+    <script src="assets/js/index.js"></script>
+    <!-- custome-js -->
+  </body>
+</html>
